@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#dad308"
-    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#3F51B5"
     android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.londonappbrewery.iampoor.MainActivity">
 
     <TextView
@@ -18,8 +18,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="92dp"
-        android:text="I Am Poor"
-        android:textColor="@android:color/background_dark"
+        android:text="@string/title"
+        android:textColor="#E7E0E0"
         android:textSize="40sp" />
 
     <ImageView
@@ -27,6 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="141dp"
+        android:contentDescription="@string/coal_image_description"
         app:srcCompat="@drawable/coal" />
 </RelativeLayout>
